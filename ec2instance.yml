@@ -27,7 +27,7 @@ Parameters:
       - t3.small
       - t3.medium
       - t3.large
-    Default: t3.small
+    Default: t2.large
     ConstraintDescription: must be a valid EC2 instance type.
 
   SSHLocation:
