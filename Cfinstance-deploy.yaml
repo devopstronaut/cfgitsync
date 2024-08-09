@@ -1,0 +1,3 @@
+template-file-path: ec2instance.yaml
+parameters: {}
+tags: {}
