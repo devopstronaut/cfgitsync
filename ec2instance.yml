@@ -1,11 +1,11 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: Basic CloudFormation Template to create an EC2 Instance
 Resources:
-  MyEC2Instance:
+  CFInstance:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t3.micro
-      KeyName: vault
+      KeyName: cfinstance
       ImageId: ami-02af70169146bbdd3
       SubnetId: subnet-0f4e64ce0a813bf21
       SecurityGroupIds:          
