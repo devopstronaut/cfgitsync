@@ -1,4 +1,0 @@
-template-file-path: ec2instance.yml
-parameters:
-  KeyName: vault
-tags: {}
