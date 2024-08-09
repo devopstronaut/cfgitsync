@@ -10,7 +10,3 @@ Resources:
       SubnetId: subnet-0f4e64ce0a813bf21
       SecurityGroupIds:          
         - sg-086bbc46373ed734e
-  ElasticIP:
-    Type: AWS::EC2::EIP
-    Properties:
-      InstanceId: !Ref MyEC2Instance
